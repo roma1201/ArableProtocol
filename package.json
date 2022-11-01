@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "tokenvesting": "node tokenvesting/index.js",
+    "oracle": "node oracle/index.js",
+    "liquidator": "node liquidator/index.js",
+    "arusdstability": "node arusdstability/index.js"
+  },
+  "dependencies": {
+    "@anchor-protocol/anchor.js": "^2.0.0",
+    "@project-serum/serum": "^0.13.60",
+    "@raydium-io/raydium-sdk": "^1.0.1-beta.1",
+    "@solana/web3.js": "^1.31.0",
+    "@terra-money/terra.js": "^3.0.1",
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.2",
+    "buffer-layout": "^1.2.2",
+    "coingecko-api": "^1.0.10",
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.5.3",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "lodash": "^4.17.21",
+    "n": "^8.0.1",
+    "node-cron": "^3.0.0",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-google": "^0.14.0"
+  }
+}
